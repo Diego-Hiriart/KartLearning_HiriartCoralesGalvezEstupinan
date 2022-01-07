@@ -29,7 +29,8 @@ public class GhostManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        recording = true;
+        playing = false;
     }
 
     // Update is called once per frame
