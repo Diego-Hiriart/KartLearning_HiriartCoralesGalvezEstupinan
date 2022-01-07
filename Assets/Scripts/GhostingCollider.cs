@@ -13,7 +13,7 @@ public class GhostingCollider : MonoBehaviour
         if(other.transform.CompareTag("Player"))
         {
             count++;
-            Debug.Log(count);
+
             if(count != 1)
             {
                 ghostManager.playing = true;
