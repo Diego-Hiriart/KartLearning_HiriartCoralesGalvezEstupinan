@@ -14,4 +14,6 @@ Programacion V
 - Se detuvo el entrenamiento cuando se observó que se estabilizaba la media de recompensas entre 150 y 300. Y la desviación estándar tendía a ser 0 constantemente.
 
 ## Implementación del Ghosting
-Siguiendo el tutorial de [Karting mod: Add a Ghost Driver](https://learn.unity.com/tutorial/karting-mod-add-a-ghost-driver?uv=2019.3&projectId=5c82b27cedbc2a0e8db0c728#5ea7e9fdedbc2a00206dcaad) se implementó que por cada vuelta que el MLAgent realice, aparecerá un Ghost Driver replicando el recorrido.
+Para implementar el Ghost Driver con cada vuelta que realice el MLAgent se programó lo siguiente:
+- Se creó un trigger collider que indica si el MLAgent pudo completar la vuelta en la pista. 
+- Al dar una vuelta, el script activa la reproducción del Ghost Driver.
