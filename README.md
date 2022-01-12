@@ -18,3 +18,5 @@ Programacion V
 Para implementar el Ghost Driver con cada vuelta que realice el MLAgent se programó lo siguiente:
 - Se creó un trigger collider que indica si el MLAgent pudo completar la vuelta en la pista. 
 - Al dar una vuelta, el script activa la reproducción del Ghost Driver.
+
+NOTA: No se incluyó el ambiente virtual ya que es muy pesado, pero se incluyó un archivo requirements.txt que indica los paquetes necesarios para generar un ambiente igual. Solamente se incluye el modelo resultante del entrenamiento.
