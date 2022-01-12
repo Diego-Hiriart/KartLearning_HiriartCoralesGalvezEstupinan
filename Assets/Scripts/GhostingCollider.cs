@@ -14,7 +14,7 @@ public class GhostingCollider : MonoBehaviour
         {
             count++;
 
-            if(count != 1)
+            if(count > 1)
             {
                 ghostManager.playing = true;
                 ghostManager.recording = true;

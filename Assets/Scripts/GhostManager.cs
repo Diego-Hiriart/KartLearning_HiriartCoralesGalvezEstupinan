@@ -24,7 +24,7 @@ public class GhostManager : MonoBehaviour
     public bool playing;
 
     private List<GhostTransform> recordedGhostTransform = new List<GhostTransform>();
-    private GhostTransform lastRecordedGhostTransform; 
+    private GhostTransform lastRecordedGhostTransform;
 
     // Start is called before the first frame update
     void Start()
@@ -59,7 +59,6 @@ public class GhostManager : MonoBehaviour
         ghostKart.gameObject.SetActive(true);
         StartCoroutine(StartGhost());
         playing = false;
-
     }
 
     IEnumerator StartGhost()
